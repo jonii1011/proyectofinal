@@ -4,7 +4,7 @@ import { TransferState } from '@angular/platform-browser';
 import { Observable } from 'rxjs';
 import { persona } from '../model/persona.model';
 import { HttpClient } from '@angular/common/http';
-import { environment } from 'src/environments/environment';
+import { environment } from 'src/environments/environment.prod';
 
 
 @Injectable({
@@ -25,7 +25,7 @@ export class PersonaService {
   }
 
   public update(id: number, Persona: persona): Observable<any>{
-    return this.httpclient.put<any>(this.URL + `update/${id}`, persona);
+    return this.httpclient.put<any>(this.URL + `update/${id}`, Persona);
   }
 
 }

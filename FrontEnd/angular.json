@@ -25,11 +25,12 @@
               "src/assets"
             ],
             "styles": [
-              "bootstrap/bootstrap-5.0.1-dist/css/bootstrap.rtl.css",
+              
+              "bootstrap//css/bootstrap.rtl.css",
               "src/styles.css"
             ],
             "scripts": [
-              "bootstrap/bootstrap-5.0.1-dist/js/bootstrap.js"
+              "bootstrap//js/bootstrap.js"
             ]
           },
           "configurations": {

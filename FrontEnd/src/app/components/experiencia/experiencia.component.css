@@ -1,13 +1,22 @@
 .row{
     padding: 30px;
+    margin: 0;
 }
 div{
     background-color: #D7D7D7;
+    overflow: hidden;
 }
 h1, h3{
     display: inline;
 }
 p{
     font-size: large;
+}
+@media (max-width: 575px){
+    div{
+       display: block;
+       margin: 0 auto;
+       
+    }
 }
 
